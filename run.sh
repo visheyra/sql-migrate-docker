@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 set -e
-cd /files
+cd /tmp
 
 
 if [ "$#" -eq 0 ]
@@ -12,7 +12,7 @@ fi
 
 if [ -z "$(ls -A)" ]
 then
-    echo "Empty /files folder, This should hold the entire migration and configuration file"
+    echo "Empty /tmp folder, This should hold the entire migration and configuration file"
     exit 2
 fi
 

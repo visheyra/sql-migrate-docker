@@ -9,7 +9,7 @@ This section explains how to use the container, where to mount the volumes, whic
 
 | Mountpoint | Description |
 |:---:|:---:|
-| /files | Folder where to mount your different sql files, check [rubenv github](https://github.com/rubenv/sql-migrate) for how to write those files. |
+| /tmp | Folder where to mount your different sql files, check [rubenv github](https://github.com/rubenv/sql-migrate) for how to write those files. |
 
 ### Environment
 
